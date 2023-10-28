@@ -1,0 +1,110 @@
+*{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0 2%;
+  margin: 0;
+  box-sizing: content-box;
+  text-decoration: none;
+}
+
+body{
+  color: white;
+  background-image: url('sep09.jpg');
+  background-size: cover;
+  background-repeat: repeat;
+}
+
+.note{
+  display: flex;
+  flex-direction: column;
+}
+.note h1{
+  margin-top: 50px;
+  font-size: 54px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.note h2{
+  font-size: 14px;
+  margin-top: 20px;
+}
+#make-catatan{
+  display: flex;
+  flex-direction: column;
+}
+input[type="text"] {
+  width: 100%;
+}
+input[type="datetime-local"] {
+  width: 100%;
+}
+
+.tombol{
+  margin-top: 20px;
+  padding: 0 3.75%;
+}
+.btn-submit{
+  display: inline-block;
+  width: 60px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #3EFFBD;
+}
+
+#time{
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  margin: 60px;
+  text-align: center;
+  border: 1px solid white;
+}
+.btn-edit, .btn-hapus {
+  margin-bottom: 5px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.btn-edit{
+  display: inline-block;
+  width: 60px;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: #FFCF40;
+  color: white;
+}
+.btn-hapus{
+  display: inline-block;
+  width: 60px;
+  padding: 2px;
+  border-radius: 8px;
+  background-color: #FF5F49;
+  color: white;
+}
+
+.alert-danger {
+  background-color: #ff6b6b;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 10px;
+  border-radius: 4px;
+}
+.alert-success {
+  background-color: #A0FF9A;
+  color: #fff;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  padding: 10px;
+  border-radius: 4px;
+}
